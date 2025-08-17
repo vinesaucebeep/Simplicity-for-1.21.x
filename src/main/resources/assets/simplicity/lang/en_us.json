@@ -1,0 +1,13 @@
+{
+  "itemGroup.simplicity": "Example Mod Tab",
+  "block.simplicity.example_block": "Example Block",
+  "item.simplicity.example_item": "Example Item",
+
+  "simplicity.configuration.title": "Simplicity Configs",
+  "simplicity.configuration.section.simplicity.common.toml": "Simplicity Configs",
+  "simplicity.configuration.section.simplicity.common.toml.title": "Simplicity Configs",
+  "simplicity.configuration.items": "Item List",
+  "simplicity.configuration.logDirtBlock": "Log Dirt Block",
+  "simplicity.configuration.magicNumberIntroduction": "Magic Number Text",
+  "simplicity.configuration.magicNumber": "Magic Number"
+}
