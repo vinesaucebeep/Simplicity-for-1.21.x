@@ -17,6 +17,9 @@ public class ModTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).addTags()
+                        .add(BlockRegistry.RUBY_BLOCK.get());
+
         tag(BlockTags.NEEDS_IRON_TOOL).addTags()
                 .add(BlockRegistry.RUBY_BLOCK.get());
 
