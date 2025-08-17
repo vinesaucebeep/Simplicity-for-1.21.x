@@ -1,3 +1,3 @@
 
-Simplcitiy
+Simplicity
 =======
