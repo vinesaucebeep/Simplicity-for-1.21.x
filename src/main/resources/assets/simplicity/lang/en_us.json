@@ -1,7 +1,7 @@
 {
-  "itemGroup.simplicity": "Example Mod Tab",
-  "block.simplicity.example_block": "Example Block",
-  "item.simplicity.example_item": "Example Item",
+  "itemGroup.simplicity": "Simplicity",
+  "block.simplicity.ruby_block": "Block of Ruby",
+
 
   "simplicity.configuration.title": "Simplicity Configs",
   "simplicity.configuration.section.simplicity.common.toml": "Simplicity Configs",
