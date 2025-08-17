@@ -27,5 +27,7 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         event.addProvider(new ModModelProvider(packOutput, Simplicity.MODID));
+        event.addProvider(new ModLootTableProvider(packOutput, lookupProvider));
+        event.addProvider(new ModTagsProvider(packOutput, lookupProvider, Simplicity.MODID));
     }
 }
