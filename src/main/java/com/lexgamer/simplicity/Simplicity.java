@@ -45,9 +45,9 @@ public class Simplicity {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("simplicity_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.simplicity"))
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
+            .icon(() -> ItemRegistry.RUBY_BLOCK_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(EXAMPLE_ITEM.get());
+                output.accept(ItemRegistry.RUBY_BLOCK_ITEM.get());
             }).build());
 
 
@@ -76,7 +76,7 @@ public class Simplicity {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(EXAMPLE_BLOCK_ITEM);
+            event.accept(ItemRegistry.RUBY_BLOCK_ITEM.get());
         }
     }
 

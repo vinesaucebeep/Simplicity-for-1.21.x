@@ -1,0 +1,19 @@
+package com.lexgamer.simplicity.DataGen;
+
+import com.lexgamer.simplicity.Registry.BlockRegistry;
+import com.lexgamer.simplicity.Simplicity;
+import net.minecraft.client.data.models.BlockModelGenerators;
+import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.ModelProvider;
+import net.minecraft.data.PackOutput;
+
+public class ModModelProvider extends ModelProvider {
+    public ModModelProvider(PackOutput output, String modid) {
+        super(output, Simplicity.MODID);
+    }
+
+    @Override
+    protected  void registerModels(BlockModelGenerators blockModels,ItemModelGenerators itemModels) {
+        blockModels.createTrivialCube(BlockRegistry.RUBY_BLOCK.get());
+    }
+}
