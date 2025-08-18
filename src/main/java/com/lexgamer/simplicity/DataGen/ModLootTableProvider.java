@@ -1,6 +1,7 @@
 package com.lexgamer.simplicity.DataGen;
 
 import com.lexgamer.simplicity.Registry.BlockRegistry;
+import com.lexgamer.simplicity.Registry.ItemRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.WritableRegistry;
 import net.minecraft.data.PackOutput;
@@ -51,8 +52,11 @@ public class ModLootTableProvider extends LootTableProvider
         @Override
         protected void generate()
         {
-            // Generate loot tables for slabs
             dropSelf(BlockRegistry.RUBY_BLOCK.get());
+            add(BlockRegistry.RUBY_ORE.get(),
+                    block -> createOreDrop(BlockRegistry.RUBY_ORE.get(), ItemRegistry.RUBY.get()));
+            add(BlockRegistry.DEEPSLATE_RUBY_ORE.get(),
+                    block -> createOreDrop(BlockRegistry.DEEPSLATE_RUBY_ORE.get(), ItemRegistry.RUBY.get()));
 
         }
 

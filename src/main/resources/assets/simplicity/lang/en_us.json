@@ -1,6 +1,10 @@
 {
   "itemGroup.simplicity": "Simplicity",
   "block.simplicity.ruby_block": "Block of Ruby",
+  "block.simplicity.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.simplicity.ruby_ore": "Ruby Ore",
+  "item.simplicity.ruby": "Ruby",
+
 
 
   "simplicity.configuration.title": "Simplicity Configs",
