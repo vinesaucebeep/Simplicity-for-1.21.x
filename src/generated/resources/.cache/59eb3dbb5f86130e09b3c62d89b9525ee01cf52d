@@ -1,2 +1,4 @@
-// 1.21.8	2025-08-17T13:07:41.1294846	Loot Tables
+// 1.21.8	2025-08-19T18:53:23.5235683	Loot Tables
+0faac2acd13bbfc69db2485d154714c36847e84a data/simplicity/loot_table/blocks/deepslate_ruby_ore.json
 600a3a5abc224f8c7793a77e80b7a6a6f0d5bb77 data/simplicity/loot_table/blocks/ruby_block.json
+83e41ddcfdb0195ef972a9d546e180e5ff8f84bb data/simplicity/loot_table/blocks/ruby_ore.json
