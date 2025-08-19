@@ -4,6 +4,7 @@ import com.lexgamer.simplicity.Simplicity;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.recipes.RecipeProvider;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -28,5 +29,6 @@ public class DataGenerators {
         event.addProvider(new ModModelProvider(packOutput, Simplicity.MODID));
         event.addProvider(new ModLootTableProvider(packOutput, lookupProvider));
         event.addProvider(new ModTagsProvider(packOutput, lookupProvider, Simplicity.MODID));
+        event.addProvider(new ModRecipeProvider.Runner(packOutput, lookupProvider));
     }
 }

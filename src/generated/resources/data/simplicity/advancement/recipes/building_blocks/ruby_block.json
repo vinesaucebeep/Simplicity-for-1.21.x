@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_DeferredHolder{ResourceKey[minecraft:item / simplicity:ruby]}": {
+      "conditions": {
+        "items": [
+          {
+            "items": "simplicity:ruby"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "simplicity:ruby_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_DeferredHolder{ResourceKey[minecraft:item / simplicity:ruby]}"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplicity:ruby_block"
+    ]
+  }
+}
