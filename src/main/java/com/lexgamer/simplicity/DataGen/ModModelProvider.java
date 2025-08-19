@@ -19,6 +19,12 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(BlockRegistry.RUBY_BLOCK.get());
         blockModels.createTrivialCube(BlockRegistry.RUBY_ORE.get());
         blockModels.createTrivialCube(BlockRegistry.DEEPSLATE_RUBY_ORE.get());
+
+        blockModels.createTrivialCube(BlockRegistry.CHISELED_RED_NETHER_BRICKS.get());
+        blockModels.createTrivialCube(BlockRegistry.BLUE_NETHER_BRICKS.get());
+        blockModels.createTrivialCube(BlockRegistry.CHISELED_BLUE_NETHER_BRICKS.get());
+        blockModels.createTrivialCube(BlockRegistry.CRACKED_BLUE_NETHER_BRICKS.get());
+
         itemModels.generateFlatItem(ItemRegistry.RUBY.get(), ModelTemplates.FLAT_ITEM);
     }
 }

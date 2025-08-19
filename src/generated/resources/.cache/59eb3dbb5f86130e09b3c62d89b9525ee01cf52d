@@ -1,4 +1,8 @@
-// 1.21.8	2025-08-19T18:53:23.5235683	Loot Tables
+// 1.21.8	2025-08-19T19:02:59.9098378	Loot Tables
+01c5e967d249284cc4d84de3edfff3f16f4a8993 data/simplicity/loot_table/blocks/blue_nether_bricks.json
+a9aa019928274b8c81b8bec6bfa3d18baccb19a3 data/simplicity/loot_table/blocks/chiseled_blue_nether_bricks.json
+906a4d29833c838671bc4c092112e864d1941935 data/simplicity/loot_table/blocks/chiseled_red_nether_bricks.json
+21454f5c1bfa112b9de56097a55c5efb210856d7 data/simplicity/loot_table/blocks/cracked_blue_nether_bricks.json
 0faac2acd13bbfc69db2485d154714c36847e84a data/simplicity/loot_table/blocks/deepslate_ruby_ore.json
 600a3a5abc224f8c7793a77e80b7a6a6f0d5bb77 data/simplicity/loot_table/blocks/ruby_block.json
 83e41ddcfdb0195ef972a9d546e180e5ff8f84bb data/simplicity/loot_table/blocks/ruby_ore.json

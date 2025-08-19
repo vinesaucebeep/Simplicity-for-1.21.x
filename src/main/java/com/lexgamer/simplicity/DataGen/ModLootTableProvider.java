@@ -53,6 +53,12 @@ public class ModLootTableProvider extends LootTableProvider
         protected void generate()
         {
             dropSelf(BlockRegistry.RUBY_BLOCK.get());
+
+            dropSelf(BlockRegistry.CHISELED_RED_NETHER_BRICKS.get());
+            dropSelf(BlockRegistry.BLUE_NETHER_BRICKS.get());
+            dropSelf(BlockRegistry.CHISELED_BLUE_NETHER_BRICKS.get());
+            dropSelf(BlockRegistry.CRACKED_BLUE_NETHER_BRICKS.get());
+
             add(BlockRegistry.RUBY_ORE.get(),
                     block -> createOreDrop(BlockRegistry.RUBY_ORE.get(), ItemRegistry.RUBY.get()));
             add(BlockRegistry.DEEPSLATE_RUBY_ORE.get(),

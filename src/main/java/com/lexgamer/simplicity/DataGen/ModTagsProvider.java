@@ -20,12 +20,23 @@ public class ModTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE).addTags()
                 .add(BlockRegistry.RUBY_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_RUBY_ORE.get())
-                .add(BlockRegistry.RUBY_BLOCK.get());
+                .add(BlockRegistry.RUBY_BLOCK.get())
+
+                .add(BlockRegistry.CHISELED_RED_NETHER_BRICKS.get())
+                .add(BlockRegistry.BLUE_NETHER_BRICKS.get())
+                .add(BlockRegistry.CHISELED_BLUE_NETHER_BRICKS.get())
+                .add(BlockRegistry.CRACKED_BLUE_NETHER_BRICKS.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL).addTags()
                 .add(BlockRegistry.RUBY_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_RUBY_ORE.get())
                 .add(BlockRegistry.RUBY_BLOCK.get());
+
+        tag(BlockTags.NEEDS_STONE_TOOL).addTags()
+                .add(BlockRegistry.CHISELED_RED_NETHER_BRICKS.get())
+                .add(BlockRegistry.BLUE_NETHER_BRICKS.get())
+                .add(BlockRegistry.CHISELED_BLUE_NETHER_BRICKS.get())
+                .add(BlockRegistry.CRACKED_BLUE_NETHER_BRICKS.get());
 
     }
 }

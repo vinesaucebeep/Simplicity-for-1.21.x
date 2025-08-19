@@ -1,3 +1,4 @@
-// 1.21.8	2025-08-19T17:56:36.8913922	Tags for minecraft:block mod id simplicity
-b7a7e222f43a450b570e14b12e9a8d37a48fede3 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.8	2025-08-19T19:02:59.9108444	Tags for minecraft:block mod id simplicity
+8617c1a60393223342aaac89e3601059554bd5d9 data/minecraft/tags/block/mineable/pickaxe.json
 b7a7e222f43a450b570e14b12e9a8d37a48fede3 data/minecraft/tags/block/needs_iron_tool.json
+2e9b17689b9ba26faeaa9cceff0e83d2695fc715 data/minecraft/tags/block/needs_stone_tool.json
