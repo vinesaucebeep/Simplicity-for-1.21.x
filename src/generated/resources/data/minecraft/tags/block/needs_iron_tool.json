@@ -1,5 +1,7 @@
 {
   "values": [
+    "simplicity:ruby_ore",
+    "simplicity:deepslate_ruby_ore",
     "simplicity:ruby_block"
   ]
 }
